@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advance Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clock-container">
+    <div id="clock" class="clock style-1">
+      <div id="time" class="clock-time"></div>
+      <div id="date" class="clock-date"></div>
+    </div>
+    <button id="style-toggle">Change Style</button>
+    <label for="timezone">Select Time Zone:</label>
+    <select id="timezone">
+      <option value="Asia/Karachi">Pakistan (Asia/Karachi)</option>
+      <option value="Asia/Kolkata">India (Asia/Kolkata)</option>
+      <option value="Asia/Kabul">Afghanistan (Asia/Kabul)</option>
+      <option value="UTC">UTC</option>
+      <option value="America/New_York">New York (America/New_York)</option>
+      <option value="Europe/London">London (Europe/London)</option>
+      <!-- Add more time zones as needed -->
+    </select>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

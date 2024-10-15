@@ -1,0 +1,139 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f4f6;
+  /* Light grey background for a modern look */
+  background-image: linear-gradient(135deg, #e0f7fa, #b3e5fc);
+  /* Gradient for a fresh, clean look */
+}
+
+/* Clock Container Styles */
+.clock-container {
+  text-align: center;
+  background-color: #ffffff;
+  /* White background for the clock container */
+  padding: 20px;
+  border-radius: 12px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Soft shadow for a subtle lift */
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Clock Styling */
+.clock {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  /* Enhanced shadow for depth */
+  background-color: #fafafa;
+  /* Slightly off-white background */
+}
+
+.clock.style-1 {
+  color: #333;
+  /* Dark grey for readability */
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  /* Subtle gradient for depth */
+}
+
+.clock.style-2 {
+  color: #333;
+  background: linear-gradient(145deg, #fce4ec, #f8bbd0);
+  /* Soft pink gradient */
+}
+
+.clock.style-3 {
+  color: #333;
+  background: linear-gradient(145deg, #e1f5fe, #b3e5fc);
+  /* Light blue gradient */
+}
+
+.clock.style-4 {
+  color: #333;
+  background: linear-gradient(145deg, #dcedc8, #c5e1a5);
+  /* Light green gradient */
+}
+
+.clock.style-5 {
+  color: #333;
+  background: linear-gradient(145deg, #e1bee7, #ce93d8);
+  /* Soft purple gradient */
+}
+
+/* Time and Date Styling */
+.clock-time {
+  font-size: 3rem;
+  /* Larger font size for time */
+  font-weight: 700;
+  /* Bold font weight for emphasis */
+  margin: 0;
+}
+
+.clock-date {
+  font-size: 1.2rem;
+  /* Smaller font size for date */
+  color: #555;
+  /* Slightly lighter grey for date */
+  margin-top: 10px;
+}
+
+/* Style Toggle Button */
+#style-toggle {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00796b;
+  /* Teal color for the button */
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#style-toggle:hover {
+  background-color: #004d40;
+  /* Darker teal for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Shadow effect on hover */
+}
+
+/* Time Zone Selector */
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #00796b;
+  /* Teal color for label text */
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #00796b;
+  /* Teal border for select */
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #00796b;
+  font-size: 16px;
+  margin-top: 5px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+select:hover {
+  border-color: #004d40;
+  /* Darker teal border on hover */
+}
+
+select:focus {
+  background-color: #e0f2f1;
+  /* Light teal background on focus */
+  outline: none;
+}
